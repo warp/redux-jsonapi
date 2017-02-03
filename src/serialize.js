@@ -1,4 +1,4 @@
-import { decamelize } from 'humps';
+import { decamelize } from 'dashify';
 
 function serializeRelationships(resources = []) {
   return resources.map((resource) => serializeRelationship(resource));

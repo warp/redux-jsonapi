@@ -1,5 +1,5 @@
 import queryString from 'qs';
-import { decamelize } from 'humps';
+import { decamelize } from 'dashify';
 import * as apiActions from '../modules/api';
 
 function getDefaultHeaders() {
